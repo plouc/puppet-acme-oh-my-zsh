@@ -33,8 +33,9 @@
 # Copyright 2013 Leon Brocard
 #
 class ohmyzsh(
-  $zsh = $ohmyzsh::params::zsh,
-  $home = $ohmyzsh::params::home
+  $zsh       = $ohmyzsh::params::zsh,
+  $home      = $ohmyzsh::params::home,
+  $git_proto = $ohmyzsh::params::git_proto
 ) inherits ohmyzsh::params {
 
 
